@@ -1,0 +1,10 @@
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.exe.config
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.exe
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.pdb
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csprojAssemblyReference.cache
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.Form1.resources
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.Properties.Resources.resources
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.GenerateResource.cache
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.CoreCompileInputs.cache
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.exe
+G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.pdb
