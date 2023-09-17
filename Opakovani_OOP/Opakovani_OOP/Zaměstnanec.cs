@@ -16,17 +16,7 @@ namespace Opakovani_OOP
         string pozice;
         int hodiny;
 
-        public Zaměstnanec(string titul, string jmeno, int mesicnyPlat, DateTime datumNastupu, int osobniHodnoceni, int hodiny)
-        {
-            this.titul = titul;
-            this.jmeno = jmeno;
-            this.mesicnyPlat = mesicnyPlat;
-            this.datumNastupu = datumNastupu;
-            this.osobniHodnoceni = 0;
-            this.hodiny = 0;
-        }
-
-        public string Jmeno //dodělat
+        public string Jmeno
         {
             get
             {
@@ -37,11 +27,15 @@ namespace Opakovani_OOP
                 string[] text = jmeno.Split(' ');
                 text[1].ToUpper();
                 char prvni = jmeno[0];
-                //jmeno[0].
+                if (prvni > (char)96 && prvni < (char)123)
+                {
+                    prvni -= (char)32;
+                }
+                titul.Insert(0, prvni.ToString());
             }
         }
 
-        public string Titul //dodělat
+        public string Titul
         {
             get
             {
@@ -50,7 +44,23 @@ namespace Opakovani_OOP
             set
             {
                 char prvni = titul[0];
+                if (prvni > (char)96 && prvni < (char)123)
+                {
+                    prvni -= (char)32;
+                }
+                titul.Insert(0, prvni.ToString());
+
             }
+        }
+
+        public Zaměstnanec(string titul, string jmeno, int mesicnyPlat, DateTime datumNastupu, int osobniHodnoceni, int hodiny)
+        {
+            this.titul = titul;
+            this.jmeno = jmeno;
+            this.mesicnyPlat = mesicnyPlat;
+            this.datumNastupu = datumNastupu;
+            this.osobniHodnoceni = 0;
+            this.hodiny = 0;
         }
 
         public int RocniPlat()
@@ -67,17 +77,35 @@ namespace Opakovani_OOP
             return pocetMesicu;
         }
 
-        public void ZvysOsobni(int osobniHodnoceni) //nedunguje
+        public void ZvysOsobni(int osobniHodnoceni)
         {
-            if(titul != "Vedoucei" && osobniHodnoceni > 10000)
+            if (titul != "Vedouci" && osobniHodnoceni > 10000)
             {
                 titul = "Vedouci";
             }
         }
 
-        public void PridejOdpracHod()   //dodělat
+        public void PridejOdpracHod(int odprachodiny)   //dodělat
         {
+            hodiny += odprachodiny;
+            if (hodiny >= 100)
+            {
 
+            }
+        }
+
+        public void Relaxace(int hodiny)
+        {
+            int relaxace = 72;
+            if (hodiny >=100)
+            {
+                
+            }
+        }
+        public override string ToString()
+        {
+            return Titul + ", " + Jmeno + ", " + mesicnyPlat + ", " + PocetMesicu(datumNastupu) + ", " + osobniHodnoceni + ", " + RocniPlat() + ", " + RocniPlat() +
+                ", " + hodiny;
         }
     }
     

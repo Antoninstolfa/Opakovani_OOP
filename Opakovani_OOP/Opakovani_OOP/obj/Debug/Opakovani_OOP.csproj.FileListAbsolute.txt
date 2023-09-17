@@ -8,3 +8,13 @@ G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.G
 G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.CoreCompileInputs.cache
 G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.exe
 G:\PRG\Opakovani C#\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.pdb
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.exe.config
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.exe
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\bin\Debug\Opakovani_OOP.pdb
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.AssemblyReference.cache
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.Form1.resources
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.Properties.Resources.resources
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.GenerateResource.cache
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.csproj.CoreCompileInputs.cache
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.exe
+D:\Antonín Štolfa\PRG\C#\Opakovani OOP\Opakovani_OOP\Opakovani_OOP\obj\Debug\Opakovani_OOP.pdb
